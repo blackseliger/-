@@ -1,16 +1,5 @@
 // TODO: write your code here
 
-const { String } = require('core-js');
-
-const profileHero = {
-  name: 'Лучник',
-  type: 'Bowman',
-  health: 50,
-  level: 1,
-  attack: 40,
-  defence: 10,
-};
-
 const shortDesc = (obj) => {
   if (obj === undefined) return null;
   const {
@@ -48,4 +37,4 @@ shortDesc({
   defence: 10,
 });
 
-export { shortDesc };
+export default shortDesc;

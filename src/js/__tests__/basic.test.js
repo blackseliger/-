@@ -1,4 +1,4 @@
-import { shortDesc } from '../app';
+import shortDesc from '../app';
 
 describe('check function shortDesc', () => {
   test('return corrected message', () => {
